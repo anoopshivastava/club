@@ -1,0 +1,273 @@
+.container{
+	max-width:1200px;
+	width:100%;
+	margin:0 auto;
+	padding:0 15px;
+}
+
+/* banner */
+.banner figure img{
+	width:100%;
+}
+
+/* data_live */
+.data_live{
+padding: 30px 0;
+}
+.data_live h2{
+color:#11adb3;
+font-size: 25px;
+font-weight: 700;
+font-family: 'Akaya Telivigala', cursive;
+margin:0 0 30px;
+}
+.data_live p{
+	line-height: 1.5;
+	color: #58585a;
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Akaya Telivigala', cursive;
+	text-align: justify;
+	margin:0 0 20px;
+}
+.data_live p strong{
+    font-weight: 700;
+}
+
+.button{
+	background: #11adb3;
+	padding: 8px 12px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Akaya Telivigala', cursive;
+	display: inline-block;
+}
+
+/* our_resort */
+.our_resort{
+	padding:20px 0 50px;
+}
+.our_resort h3{
+	color: #11adb3;
+font-size: 25px;
+font-weight:400;
+margin:0 0 30px;
+font-family: 'Akaya Telivigala', cursive;
+}
+.resort_inner{
+	display:flex;
+	justify-content: space-between;
+}
+.resort_cell{
+	width:calc(50% - 10px);
+}
+ .resort_cell img{
+	width:100%;
+}
+.explore .resort_cell
+{
+	width:calc(70% - 10px);
+}
+.explore .resort_cell:nth-child(2){
+	width:calc(30% - 10px);
+}
+.explore .resort_cell:nth-child(2) img{
+	width:100%;
+}
+
+
+/* grand_section */
+.grand_section{
+	padding:40px 0;
+}
+.grand_section h3{
+	font-family: 'Akaya Telivigala', cursive;
+	font-size:25px;
+	color:#11adb3;
+	font-weight:700;
+	margin:0 0 40px;
+}
+.grand_section h5{
+	font-family: 'Akaya Telivigala', cursive;
+	font-size:20px;
+	font-weight:700;
+	color:#58585a;
+	margin:0 0 10px;
+}
+.grand_section p{
+	font-family: 'Akaya Telivigala', cursive;
+	line-height: 1.5;
+	color: #58585a;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: justify;
+	margin:0 0 20px;
+}
+.grand_section ul{
+	background: #f2f2f2;
+	padding: 18px 38px;
+	margin:0 0 10px;
+}
+.grand_section ul li{
+		font-size:18px;
+		margin:0 0 5px;
+		line-height: 1.5;
+		color: #58585a;
+		font-size: 20px;
+		font-weight: 400;
+		text-align: justify;
+		font-family: 'Akaya Telivigala', cursive;
+}
+
+
+.grand_section h4{
+	font-family: 'Akaya Telivigala', cursive;
+	text-transform: uppercase;
+	line-height: 1.7;
+	color: #58585a;
+	font-size: 20px;
+	font-weight: 700;
+	margin:0 0 20px;
+}
+
+/* contact_section */
+.contact_section{
+	padding: 40px 0;
+}
+.contact_section h3{
+	font-family: 'Akaya Telivigala', cursive;
+	font-size:25px;
+	color:#11adb3;
+	font-weight:700;
+	margin:0 0 40px;	
+}
+
+/* slider_sec */
+.slider_sec figure{
+	margin:0  0 10px;
+	border-bottom: 4px solid #11adb3;
+}
+.slider_sec figure img{
+	width:100%;
+}
+.slider_sec h5{
+	font-size:20px;
+	color:#000;
+	margin:0 0 10px;
+	font-family: 'Akaya Telivigala', cursive;
+	font-weight:700;
+}
+.slider_sec p {
+	font-family: 'Akaya Telivigala', cursive;
+	line-height: 1.5;
+	color: #000;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: justify;
+	margin:0 0 20px;
+}
+.slider_sec .slick-arrow{
+	display:none  !important;
+}
+
+
+.contact_section p {
+	line-height: 1.7;
+color: #58585a;
+font-size: 20px;
+font-weight: 400;
+text-align: justify;
+font-family: 'Akaya Telivigala', cursive;
+margin:0 0 50px;
+}
+.contact_section p  strong{
+	font-weight:700;
+	text-transform: uppercase;
+}
+.contact_form_section{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.contact_address{
+width:40%;
+}
+.contact_address h3{
+font-size:22px;
+font-weight:700;
+font-family: 'Akaya Telivigala', cursive;
+color:#000;
+text-transform: uppercase;
+margin:0 0 20px;
+}
+.contact_address p {
+	font-size:20px;
+	font-weight:400;
+	font-family: 'Akaya Telivigala', cursive;
+	color:#000;
+	margin:0 0 10px;
+}
+.contact_form{
+	width: 60%;
+display: flex;
+padding: 0 15px;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: flex-start;
+align-content: flex-start;
+}
+.form_cell{
+	width:33.33%;
+	padding:0 15px;
+	margin:0 0 20px;
+}
+.form_cell label{
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	margin:0 0 5px;
+	font-family: 'Akaya Telivigala', cursive;
+	display: block;
+}
+.form_cell input{
+display:block;
+width:100%;
+height: 30px;
+line-height: 28px;
+background: #f7f7f7;
+border: 1px solid #EBEBEB;
+font-family: 'Akaya Telivigala', cursive;
+padding:0 10px;
+font-size:16px;
+font-weight:400;
+color:#000;
+}
+.full_cell{
+	width:100%;
+}
+.full_cell textarea{
+	width:100%;
+	font-family: 'Akaya Telivigala', cursive;
+	padding:20px;
+	font-size:16px;
+	font-weight:400;
+	background: #f7f7f7;
+	line-height: 1.17;
+	color:#000;
+	height:120px;
+	border: 1px solid #EBEBEB;
+}
+
+.submit_btn{
+	font-family: 'Akaya Telivigala', cursive;
+	text-align: center;
+	background-color: #11adb3;
+	padding:8px 12px;
+	font-size:14px;
+	color:#fff;
+	text-transform: uppercase;
+	border:1px solid #11adb3;
+	cursor: pointer;
+}

@@ -1,0 +1,123 @@
+/*
+ Table Of Contents
+ 1.) Media Query for Handheld Devices
+ 2.) Media Query for Tablet
+ 3.) Media Query for mobile
+ ===============================================*/
+
+/*
+ 1.) Media Query for Handheld Devices
+ ===============================*/
+
+@media only screen and (max-width: 1199px) {
+    .explore .resort_cell {
+        width: calc(50% - 10px);
+    }
+    .explore .resort_cell:nth-child(2) {
+        width: calc(50% - 10px);
+    }
+}
+
+@media only screen and (max-width: 1024px) {}
+
+/*
+ 2.) Media Query for Tablet
+ ===============================*/
+
+@media only screen and (max-width: 992px) {
+    .contact_address {
+        width: 100%;
+        margin: 0 0 20px;
+        padding: 0 15px;
+    }
+    .contact_form{
+        width: 100%;
+        padding: 0 0px;
+    }
+}
+
+/*
+ 3.) Media Query for mobile
+ ===============================*/
+
+@media only screen and (max-width: 767px) {
+    .footer_inner {
+        flex-wrap: wrap;
+    }
+    .footer_cell {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    #footer {
+        padding: 40px 0 20px;
+    }
+    .resort_inner {
+        flex-wrap: wrap;
+    }
+    .explore .resort_cell, .explore .resort_cell:nth-child(2), .resort_cell {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    .mobile_menu {
+        display: block;
+        width: 35px;
+    }
+    .menu {
+        position: absolute;
+        background: #fff;
+        top: 66px;
+        left: 0;
+        width: 100%;
+        z-index: 99999;
+        display: none;
+        border-bottom: 5px solid #11adb3;
+        padding-bottom: 20px;
+    }
+    #header {
+        padding: 10px 0;
+    }
+    .logo {
+        width: 100px;
+    }
+    .logo img {
+        max-width: 100%;
+        width: auto;
+    }
+    .menu ul li {
+        display: block;
+        padding: 0 15px;
+    }
+    .menu ul li a {
+        display: block;
+        padding: 5px 10px;
+    }
+    .dropdown-menu {
+        position: static;
+    }
+    #wrapper {
+        padding-top: 66px;
+    }
+
+    .form_cell {
+        width: 100%;
+        padding: 0;
+        margin: 0px 0 10px;
+    }
+
+    .contact_address h3 {
+        font-size: 20px;
+        margin: 20px 0 10px;
+    }
+    .contact_address p {
+        font-size: 16px;
+        margin: 0 0 0;
+    }
+    .contact_address{
+        padding: 0;
+    }
+    .contact_section p {
+        font-size: 14px;
+        margin: 0 0 0px;
+    }
+   
+}

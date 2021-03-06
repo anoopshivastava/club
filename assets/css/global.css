@@ -1,0 +1,344 @@
+/*
+ Table Of Contents
+ 1.) Eric Meyer's Reset
+ 2.) Global Typography
+	 2.0.1) Font Face
+	 2.0.2) Global Headings
+	 2.0.3) Form Elements
+	 2.0.4) List styles
+	 2.0.5) General Text Formatting
+	 2.0.6) Link elements
+	 2.0.7) Table Elements
+	 2.0.8) Button Styles
+	 2.0.9) Sprite Icons
+	 2.1.0) 960 Grid Style
+ 3.) Site Wide Content
+ 4.) Header Style
+ 5.) Footer Style
+ ===============================================*/
+
+/*
+ 1.) Eric Meyer's Reset
+ ----------------------------------------*/
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+ 1.) Global Typography
+ ----------------------------------------*/
+*, :before, :after{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 100%;
+}
+body {
+	font-size: 62.5%;
+	font-family: 'Akaya Telivigala', cursive;
+}
+/*
+ 2.0.1) Font Face
+ -----------------------------*/
+/*Put Your font face Styles here*/
+
+/*
+ 2.0.2) Global Headings
+ -----------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	
+}
+h1{
+
+}
+h2{
+	
+}
+h3{
+	
+}
+h4{
+	
+}
+h5{
+	
+}
+h6{
+	
+}
+/*
+ 2.0.3) Form Elements
+ -----------------------------*/
+
+
+/*
+ 2.0.4) List Styles
+ ---------------------------------*/
+
+
+/*
+ 2.0.5) General Text Formatting
+ -----------------------------------*/
+
+/*
+ 2.0.6) Link style
+ -------------------------*/
+
+
+/*
+ 2.0.7) Table Elements
+ --------------------------*/
+
+
+/*
+ 2.0.8) Button Styles
+ -------------------------*/
+
+/*
+ 2.0.9) Sprite Icons
+ -------------------------*/
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+/*
+ 3.) Site Wide Content
+ ------------------------------*/
+#wrapper {
+	padding-top:93px;
+}
+/*
+ 4.) Header Styles
+ ------------------------------*/
+#header {
+	padding:15px 0;
+	background:#fff;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index: 99;
+	width:100%;
+}
+.header_inner{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	display: inline-block;
+}
+.menu{
+
+}
+.menu ul{
+
+}
+
+.menu ul li {
+display:inline-block;
+position: relative;
+}
+.menu ul li a{
+	display:inline-block;
+	color: #58585a;
+	font-weight: 700;
+	padding:10px 15px;
+	font-family: 'Akaya Telivigala', cursive;
+	font-size: 18px;
+    line-height: 1.42857143;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	color:#11adb3;
+}
+.menu > ul  li.active a , .menu > ul  li.active a:hover{
+	color:#fff;
+	background-color: #11adb3;
+}
+
+.menu > ul  li.active  li a , .menu > ul  li.active li a:hover{
+	color:#58585a;
+	background-color: #fff;
+}
+
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+ .menu ul li:hover .caret{
+	color:#11adb3;
+}
+.menu ul li.active .caret{
+	color:#fff;
+}
+
+.navbar-right .dropdown-menu {
+
+    left: auto;
+    right: 0;
+
+}
+
+.dropdown-menu {
+
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    background-clip: padding-box;
+	display:none;
+
+}
+.menu ul li  .dropdown-menu  li {
+	display: block;
+}
+.menu ul li  .dropdown-menu  li a {
+	display:block;
+	padding:5px 10px;
+	font-size: 16px;
+}
+/*
+ 5.) Footer Styles
+ ------------------------------*/
+#footer {
+	padding:40px 0;
+	background:#000;
+}
+
+.footer_inner{
+	display:flex;
+	justify-content: center;
+
+}
+.footer_cell{
+	width:33.33%;
+	padding:0 10px;
+}
+.footer_cell h3{
+	color:#979595;
+	font-size:18px;
+	font-weight:700;
+	font-family: 'Akaya Telivigala', cursive;
+	margin-bottom:25px;
+	text-transform: uppercase;
+}
+
+.footer_menu li {
+margin:0 0 6px;
+}
+.footer_menu li a{
+	color:#979595;
+    font-weight:400;
+	font-family: 'Akaya Telivigala', cursive;
+	display:inline-block;
+	text-decoration: none;
+	line-height: 1.7;
+	font-size: 16px;
+
+}
+.footer_menu li a:hover{
+	color:#fff;
+}
+
+.social_icon a{
+	display:inline-block;
+	width:30px;
+	margin:0 8px;
+}
+
+.social_icon a img{
+	max-width:100%;
+	width:auto;
+}
+
+.mobile_menu{
+	display:none;
+}
